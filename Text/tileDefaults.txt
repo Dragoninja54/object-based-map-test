@@ -1,0 +1,30 @@
+DIRT
+Dirt
+d
+-4621737
+defaultWalkable: true
+END
+GRASS
+Grass
+g
+-3947581
+defaultWalkable: true
+END
+STONE
+Stone
+s
+-14503604
+defaultWalkable: true
+END
+TALL_STONE
+Tall Stone
+S
+-8421505
+defaultWalkable: false
+END
+AIR
+Air
+a
+-16777215
+defaultWalkable: false
+END

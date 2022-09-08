@@ -1,0 +1,30 @@
+First line is always the ID of the tile
+ex:
+DIRT
+
+Second line is always the Display name of the tile
+ex:
+Dirt
+
+Third line is always the map output of the tile
+ex:
+d
+
+Fourth line is always the bmp color of the tile in int form
+ex:
+-4621737
+
+After that is the tile's attributes denoted with the attribute type followed by : and the value
+ex:
+walkable: true
+
+Finally once all the tile's attributes are written, END signifies the end of the tile
+ex:
+END
+
+DIRT
+Dirt
+d
+-4621737
+defaultWalkable: true
+END
