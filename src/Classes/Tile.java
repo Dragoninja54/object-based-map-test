@@ -1,3 +1,5 @@
+package Classes;
+
 public class Tile {
     // Changeable attributes (can be modified by player & other actions for each individual tile)
     public String mapOutput;

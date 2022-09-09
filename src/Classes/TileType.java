@@ -1,3 +1,5 @@
+package Classes;
+
 public class TileType {
     //Will never change between instances of Tile that use the same tiletype
     public String identifier;

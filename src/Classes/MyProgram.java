@@ -1,10 +1,9 @@
 //every tile on map is an object of Tile
 //every tile type gets a tileType object
 //every tile on map gets assigned one of the tileType objects
+package Classes;
 
 import java.io.*;
-import java.util.*;
-import java.net.*;
 
 public class MyProgram
 {
@@ -15,16 +14,9 @@ public class MyProgram
     
     public static void main(String[] args)
     {
-        program.tileRegistry.readDefaultInfo(new File("tileDefaults.txt"), program.map);
+    	program.tileRegistry.readDefaultInfo(new File("src\\Text\\tileDefaults.txt"), program.map);
         
-        try 
-        {
-            program.map.readMap(new URL("https://codehs.com/uploads/2aed7fe0084f553815ad3504de6795eb"));
-        }
-        catch (MalformedURLException e)
-        {
-            e.printStackTrace();
-        }
+        program.map.readMap(new File("src\\Maps\\testmap.bmp"));
 
         System.out.println();
         System.out.println(program.tileRegistry.getTileType("DIRT").name);

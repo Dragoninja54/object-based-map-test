@@ -1,3 +1,5 @@
+package Classes;
+
 import java.io.*;
 import javax.imageio.*;
 import java.awt.image.*;
@@ -9,10 +11,10 @@ public class Map {
     public Hashtable<Integer, TileType> colorTileMap = new Hashtable<Integer, TileType>();
     public ArrayList<ArrayList<Tile>> mapTileList = new ArrayList<ArrayList<Tile>>();
     
-    public void readMap (URL inputUrl) {
+    public void readMap (File inputFile) {
         try
         {
-            mapImage = ImageIO.read(inputUrl);
+            mapImage = ImageIO.read(inputFile);
         }
         catch (MalformedURLException e)
         {

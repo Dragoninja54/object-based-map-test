@@ -1,5 +1,6 @@
+package Classes;
+
 import java.util.*;
-import java.lang.*;
 import java.io.*;
 
 //handles the initialization of all the tiletype objects
